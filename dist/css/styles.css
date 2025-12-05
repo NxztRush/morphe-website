@@ -100,6 +100,7 @@ main {
     text-decoration: none;
     font-size: 1.25rem;
     font-weight: 600;
+    margin-bottom: 2.5rem;
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);
 }
@@ -211,13 +212,8 @@ main {
     color: var(--primary-color);
 }
 
-/* Donate Section */
-.donate-section {
-    padding: 2rem;
-    text-align: center;
-}
-
 .donate-collapse {
+    text-align: center;
     max-width: 500px;
     margin: 0 auto;
     background-color: var(--background-alt);
