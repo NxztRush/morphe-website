@@ -20,7 +20,6 @@ body {
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background);
-
     display: flex;
     flex-direction: column;
 }
@@ -80,6 +79,11 @@ main {
     margin-right: auto;
 }
 
+.hero-logo {
+    max-width: 90%;
+    height: auto;
+}
+
 /* Download Button */
 .download-button {
     display: inline-block;
@@ -136,6 +140,7 @@ main {
     transition: max-height 0.5s ease-out;
     background-color: var(--background-alt);
     border-radius: 0.75rem;
+    border: 1px solid transparent;
     margin-top: 2rem;
     padding: 0 2rem;
     width: 100%;
@@ -282,6 +287,8 @@ details[open] .donate-toggle::after {
 
     .description {
         font-size: 1rem;
+        max-width: 100%;
+        padding: 0 1rem;
     }
 
     .download-button {
