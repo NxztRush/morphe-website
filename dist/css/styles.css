@@ -16,11 +16,11 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background);
-    min-height: 100vh;
+
     display: flex;
     flex-direction: column;
 }
@@ -61,7 +61,7 @@ main {
 /* Hero Section */
 .hero, .donate-hero {
     text-align: center;
-    padding: 3rem 2rem;
+    padding: 0.5rem 2rem;
     margin-bottom: 2rem;
 }
 
@@ -123,6 +123,43 @@ main {
     color: var(--primary-hover);
     text-decoration: underline;
 }
+
+/* FAQ Section */
+.faq-container {
+    display: flex;
+    justify-content: center;
+}
+
+.faq {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    background-color: var(--background-alt);
+    border-radius: 0.75rem;
+    margin-top: 2rem;
+    padding: 0 2rem;
+    width: 100%;
+    max-width: 600px; /* Or other desired width */
+}
+
+.faq.open {
+    max-height: 1000px; /* Adjust as needed */
+    padding: 2rem;
+    border-color: var(--border-color);
+}
+
+.faq-item {
+    margin-bottom: 1.5rem;
+}
+
+.faq-item:last-child {
+    margin-bottom: 0;
+}
+
+.faq-item h3 {
+    margin-bottom: 0.5rem;
+}
+
 
 /* Back Link Section (on donate page) */
 .back-link-section {
