@@ -100,12 +100,13 @@ main {
 
 /* Social and Navigation Links */
 .social-links {
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
 .social-links a {
     display: inline-block;
-    margin: 0 1rem;
+    margin: 0 1.5rem;
 }
 
 .social-links img {
