@@ -21,6 +21,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Generate robots.txt
+        # Don't allow indexing of non-production deployments.
+        run: |
+          if [ "${{ github.ref }}" = "refs/heads/main" ]; then
+            echo -e "User-agent: *\nDisallow:" > dist/robots.txt
+          else
+            echo -e "User-agent: *\nDisallow: /" > dist/robots.txt
+          fi
+
       - name: Install Wrangler
         run: npm install -g wrangler
 
