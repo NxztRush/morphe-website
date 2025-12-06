@@ -25,28 +25,6 @@ body {
     flex-direction: column;
 }
 
-/* Header and Navigation */
-header {
-    background-color: var(--background);
-    border-bottom: 1px solid var(--border-color);
-    padding: 1rem 2rem;
-}
-
-nav {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--primary-color);
-    text-decoration: none;
-}
-
 /* Main Content */
 main {
     max-width: 800px;
@@ -58,14 +36,19 @@ main {
     justify-content: center;
 }
 
-/* Hero Section */
-.hero, .donate-hero {
+/* General Section Styling */
+.section {
     text-align: center;
-    padding: 0.5rem 2rem;
-    margin-bottom: 5rem;
+    padding: 1rem 2rem;
 }
 
-.hero h1, .donate-hero h1 {
+.hero-section {
+    padding-top: 0.5rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+}
+
+.hero-section h1 {
     font-size: 3.5rem;
     margin-bottom: 1.5rem;
     color: var(--text-color);
@@ -80,46 +63,49 @@ main {
     margin-right: auto;
 }
 
-.hero-logo {
+.logo {
     max-width: 90%;
     height: auto;
     margin-bottom: 2.5rem;
 }
 
-/* Download Button */
-.download-button {
+/* Button Styles */
+.btn {
     display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem 3rem;
-    border-radius: 0.5rem;
-    text-decoration: none;
     font-size: 1.25rem;
-    font-weight: 600;
-    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);
 }
 
-.download-button:hover {
+.btn-primary:hover {
     background-color: var(--primary-hover);
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
 }
 
-.download-button:focus {
+.btn-primary:focus {
     outline: 2px solid var(--primary-color);
     outline-offset: 2px;
 }
 
-/* Social Links */
+
+/* Social and Navigation Links */
 .social-links {
-    text-align: center;
     margin-bottom: 1rem;
 }
 
 .social-links a {
     display: inline-block;
-    margin: 0 0.5rem;
+    margin: 0 1rem;
 }
 
 .social-links img {
@@ -127,13 +113,7 @@ main {
     width: 24px;
 }
 
-/* Donate Link Section (on main page) */
-.donate-link-section {
-    text-align: center;
-    padding: 1rem 2rem;
-}
-
-.donate-link {
+.link {
     color: var(--primary-color);
     text-decoration: none;
     font-weight: 500;
@@ -141,18 +121,24 @@ main {
     transition: color 0.2s ease;
 }
 
-.donate-link:hover {
+.link:hover {
     color: var(--primary-hover);
     text-decoration: underline;
 }
 
+.back-link {
+    color: var(--text-light);
+    font-size: 0.875rem;
+}
+
+
 /* FAQ Section */
-.faq-container {
+.faq-section {
     display: flex;
     justify-content: center;
 }
 
-.faq {
+.faq-content {
     max-height: 0;
     overflow: hidden;
     transition: all 0.5s ease-out;
@@ -167,7 +153,7 @@ main {
     max-width: 600px;
 }
 
-.faq.open {
+.faq-content.open {
     max-height: 1000px;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -175,7 +161,7 @@ main {
     border-width: 1px;
 }
 
-.faq h2 {
+.faq-content h2 {
     margin-bottom: 1rem;
 }
 
@@ -191,76 +177,18 @@ main {
     margin-bottom: 0.5rem;
 }
 
-
-/* Back Link Section (on donate page) */
-.back-link-section {
-    text-align: center;
-    padding: 2rem;
-}
-
-.back-link {
-    color: var(--text-light);
-    text-decoration: none;
-    font-size: 0.875rem;
-    transition: color 0.2s ease;
-}
-
-.back-link:hover {
-    color: var(--primary-color);
-}
-
-/* Donate Section */
-.donate-section {
-    padding: 2rem;
-    text-align: center;
-}
-
-.donate-collapse {
+/* Donate Page Specifics */
+.crypto-list {
     max-width: 500px;
     margin: 0 auto;
     background-color: var(--background-alt);
     border: 1px solid var(--border-color);
     border-radius: 0.75rem;
     overflow: hidden;
-}
-
-.donate-toggle {
-    padding: 1rem 1.5rem;
-    cursor: pointer;
-    font-weight: 600;
-    color: var(--text-color);
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    transition: background-color 0.2s ease;
-}
-
-.donate-toggle::-webkit-details-marker {
-    display: none;
-}
-
-.donate-toggle::after {
-    content: '▼';
-    font-size: 0.75rem;
-    transition: transform 0.3s ease;
-}
-
-details[open] .donate-toggle::after {
-    transform: rotate(180deg);
-}
-
-.donate-toggle:hover {
-    background-color: var(--border-color);
-}
-
-.crypto-options {
     padding: 1rem;
-    border-top: 1px solid var(--border-color);
 }
 
-.crypto-link {
+.crypto-item {
     display: block;
     padding: 1rem;
     margin-bottom: 0.5rem;
@@ -272,16 +200,16 @@ details[open] .donate-toggle::after {
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.crypto-link:last-child {
+.crypto-item:last-child {
     margin-bottom: 0;
 }
 
-.crypto-link:hover {
+.crypto-item:hover {
     border-color: var(--primary-color);
     box-shadow: 0 2px 8px rgba(99, 102, 241, 0.15);
 }
 
-.crypto-link:focus {
+.crypto-item:focus {
     outline: 2px solid var(--primary-color);
     outline-offset: 2px;
 }
@@ -301,18 +229,19 @@ details[open] .donate-toggle::after {
     word-break: break-all;
 }
 
+
 /* Responsive Design */
 @media (max-width: 768px) {
-    header {
+    main {
         padding: 1rem;
     }
 
-    .hero, .donate-hero {
+    .section {
         padding-left: 1rem;
         padding-right: 1rem;
     }
 
-    .hero h1, .donate-hero h1 {
+    .hero-section h1 {
         font-size: 2.5rem;
     }
 
@@ -321,12 +250,8 @@ details[open] .donate-toggle::after {
         max-width: 100%;
     }
 
-    .download-button {
+    .btn-primary {
         padding: 0.875rem 2rem;
         font-size: 1.125rem;
-    }
-
-    main {
-        padding: 1rem;
     }
 }
