@@ -50,18 +50,18 @@
             index++;
         }
 
-        // Shuffle for variety
-        return shuffleArray(testimonials);
+        // Reorder testimony by declared indexes
+        // Allows easily changing order without localized files
+        return reorderByIndexes(
+            [2, 9, 3, 16, 4, 18, 5, 10, 6, 11, 7, 13, 12, 15, 17, 14, 19, 8].map( n => n - 1),
+            testimonials
+        );
     }
 
-    // Fisher-Yates shuffle
-    function shuffleArray(array) {
-        const shuffled = [...array];
-        for (let i = shuffled.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-        }
-        return shuffled;
+    function reorderByIndexes(indexes, values) {
+      return indexes
+        .filter(i => i >= 0 && i < values.length)
+        .map(i => values[i]);
     }
 
     // Render testimonials into DOM
