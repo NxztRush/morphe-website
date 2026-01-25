@@ -4,7 +4,8 @@
     "how-it-works": "How It Works",
     "testimonials": "Testimonials",
     "faq": "FAQ",
-    "donate": "Donate"
+    "donate": "Donate",
+    "changelogs": "What's New"
   },
   "hero": {
     "title": "Transform Your",
@@ -175,7 +176,8 @@
     "support-how": "How Morphe Works",
     "support-donate": "Donate",
     "copyright": "Open source and free forever.",
-    "language": "Language"
+    "language": "Language",
+    "product-changelog": "What's New"
   },
   "analytics": {
     "title": "Analytics",
@@ -227,5 +229,17 @@
     "404-title": "404 - Page Not Found",
     "not-found": "The page you're looking for can't be found",
     "go-home": "Go to Homepage"
+  },
+  "changelog": {
+    "title": "What's New",
+    "subtitle": "Complete history of updates and improvements",
+    "filter-type": "Type:",
+    "filter-all": "All",
+    "filter-manager": "Manager",
+    "filter-patches": "Patches",
+    "show-dev": "Show pre-releases",
+    "older-releases": "Looking for older releases?",
+    "view-manager": "View Manager Releases",
+    "view-patches": "View Patches Releases"
   }
 }

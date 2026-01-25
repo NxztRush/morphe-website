@@ -4,7 +4,8 @@
     "how-it-works": "Ako to funguje",
     "testimonials": "Referencie",
     "faq": "FAQ",
-    "donate": "Darovať"
+    "donate": "Darovať",
+    "changelogs": "Novinky"
   },
   "hero": {
     "title": "Premeň svoje",
@@ -175,7 +176,8 @@
     "support-how": "Ako funguje Morphe",
     "support-donate": "Darovať",
     "copyright": "Open source a navždy zadarmo.",
-    "language": "Jazyk"
+    "language": "Jazyk",
+    "product-changelog": "Novinky"
   },
   "analytics": {
     "title": "Analytika",
@@ -227,5 +229,17 @@
     "404-title": "404 - Stránka nenájdená",
     "not-found": "Požadovaná stránka nebola nájdená",
     "go-home": "Späť na domovskú stránku"
+  },
+  "changelog": {
+    "title": "Novinky",
+    "subtitle": "Kompletná história aktualizácií a vylepšení",
+    "filter-type": "Typ:",
+    "filter-all": "Všetky",
+    "filter-manager": "Manager",
+    "filter-patches": "Záplaty",
+    "show-dev": "Zobraziť predbežné verzie",
+    "older-releases": "Hľadáte staršie verzie?",
+    "view-manager": "Zobraziť verzie Manager",
+    "view-patches": "Zobraziť verzie Záplat"
   }
 }

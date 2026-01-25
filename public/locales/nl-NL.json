@@ -4,7 +4,8 @@
     "how-it-works": "Hoe het werkt",
     "testimonials": "Getuigenissen",
     "faq": "FAQ",
-    "donate": "Doneren"
+    "donate": "Doneren",
+    "changelogs": "Wat is er nieuw"
   },
   "hero": {
     "title": "Transformeer je",
@@ -175,7 +176,8 @@
     "support-how": "Hoe Morphe werkt",
     "support-donate": "Doneren",
     "copyright": "Open source en voor altijd gratis.",
-    "language": "Taal"
+    "language": "Taal",
+    "product-changelog": "Wat is er nieuw"
   },
   "analytics": {
     "title": "Analyse",
@@ -227,5 +229,17 @@
     "404-title": "404 - Pagina niet gevonden",
     "not-found": "De pagina is niet gevonden",
     "go-home": "Ga naar de homepage"
+  },
+  "changelog": {
+    "title": "Wat is er nieuw",
+    "subtitle": "Volledige geschiedenis van updates en verbeteringen",
+    "filter-type": "Type:",
+    "filter-all": "Alles",
+    "filter-manager": "Manager",
+    "filter-patches": "Patches",
+    "show-dev": "Vooruitgebrachte releases tonen",
+    "older-releases": "Op zoek naar oudere releases?",
+    "view-manager": "Manager-releases bekijken",
+    "view-patches": "Patch-releases bekijken"
   }
 }

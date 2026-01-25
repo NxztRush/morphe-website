@@ -4,7 +4,8 @@
     "how-it-works": "Nasıl Çalışır",
     "testimonials": "Yorumlar",
     "faq": "SSS",
-    "donate": "Bağış Yap"
+    "donate": "Bağış Yap",
+    "changelogs": "Yenilikler"
   },
   "hero": {
     "title": "Android",
@@ -175,7 +176,8 @@
     "support-how": "Morphe Nasıl Çalışır",
     "support-donate": "Bağış Yap",
     "copyright": "Açık kaynak ve sonsuza kadar ücretsiz.",
-    "language": "Dil"
+    "language": "Dil",
+    "product-changelog": "Yenilikler"
   },
   "analytics": {
     "title": "Analitik",
@@ -227,5 +229,17 @@
     "404-title": "404 - Sayfa Bulunamadı",
     "not-found": "Aradığınız sayfa bulunamadı",
     "go-home": "Ana sayfaya dön"
+  },
+  "changelog": {
+    "title": "Yenilikler",
+    "subtitle": "Güncellemelerin ve iyileştirmelerin tam geçmişi",
+    "filter-type": "Tür:",
+    "filter-all": "Tümü",
+    "filter-manager": "Manager",
+    "filter-patches": "Yamalar",
+    "show-dev": "Ön sürümleri göster",
+    "older-releases": "Eski sürümleri mi arıyorsunuz?",
+    "view-manager": "Manager sürümlerini görüntüle",
+    "view-patches": "Yama sürümlerini görüntüle"
   }
 }

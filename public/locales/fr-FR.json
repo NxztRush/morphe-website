@@ -4,7 +4,8 @@
     "how-it-works": "Comment ça marche",
     "testimonials": "Témoignages",
     "faq": "FAQ",
-    "donate": "Soutenir"
+    "donate": "Soutenir",
+    "changelogs": "Nouveautés"
   },
   "hero": {
     "title": "Transformez vos",
@@ -175,7 +176,8 @@
     "support-how": "Comment fonctionne Morphe",
     "support-donate": "Faire un don",
     "copyright": "Open source et gratuit pour toujours.",
-    "language": "Langue"
+    "language": "Langue",
+    "product-changelog": "Nouveautés"
   },
   "analytics": {
     "title": "Analytique",
@@ -227,5 +229,17 @@
     "404-title": "404 - Page non trouvée",
     "not-found": "La page que vous recherchez est introuvable",
     "go-home": "Aller à l’accueil"
+  },
+  "changelog": {
+    "title": "Nouveautés",
+    "subtitle": "Historique complet des mises à jour et améliorations",
+    "filter-type": "Type :",
+    "filter-all": "Tous",
+    "filter-manager": "Manager",
+    "filter-patches": "Correctifs",
+    "show-dev": "Afficher les pré-versions",
+    "older-releases": "Vous cherchez des versions plus anciennes ?",
+    "view-manager": "Voir les versions Manager",
+    "view-patches": "Voir les versions Correctifs"
   }
 }
