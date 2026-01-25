@@ -4,7 +4,8 @@
     "how-it-works": "Як працює Morphe",
     "testimonials": "Відгуки",
     "faq": "FAQ",
-    "donate": "Підтримайте"
+    "donate": "Підтримайте",
+    "changelogs": "Що нового"
   },
   "hero": {
     "title": "Трансформуйте свої",
@@ -175,7 +176,8 @@
     "support-how": "Як працює Morphe",
     "support-donate": "Підтримати",
     "copyright": "Відкритий код. Вільний назавжди.",
-    "language": "Мова"
+    "language": "Мова",
+    "product-changelog": "Що нового"
   },
   "analytics": {
     "title": "Аналітика",
@@ -227,5 +229,17 @@
     "404-title": "404 - Сторінку не знайдено",
     "not-found": "Сторінку, яку ви шукаєте, не знайдено",
     "go-home": "Перейти на головну"
+  },
+  "changelog": {
+    "title": "Що нового",
+    "subtitle": "Повна історія оновлень та покращень",
+    "filter-type": "Тип:",
+    "filter-all": "Усі",
+    "filter-manager": "Manager",
+    "filter-patches": "Patches",
+    "show-dev": "Показати передрелізи",
+    "older-releases": "Шукаєте старіші релізи?",
+    "view-manager": "Переглянути релізи Manager",
+    "view-patches": "Переглянути релізи Patches"
   }
 }

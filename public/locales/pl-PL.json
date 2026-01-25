@@ -4,7 +4,8 @@
     "how-it-works": "Jak to działa",
     "testimonials": "Opinie",
     "faq": "FAQ",
-    "donate": "Wesprzyj"
+    "donate": "Wesprzyj",
+    "changelogs": "Nowości"
   },
   "hero": {
     "title": "Przekształć swoje",
@@ -175,7 +176,8 @@
     "support-how": "Jak działa Morphe",
     "support-donate": "Wesprzyj",
     "copyright": "Open source i zawsze darmowe.",
-    "language": "Język"
+    "language": "Język",
+    "product-changelog": "Nowości"
   },
   "analytics": {
     "title": "Analityka",
@@ -227,5 +229,17 @@
     "404-title": "404 - Nie znaleziono strony",
     "not-found": "Nie można znaleźć strony",
     "go-home": "Wróć na stronę główną"
+  },
+  "changelog": {
+    "title": "Nowości",
+    "subtitle": "Pełna historia aktualizacji i ulepszeń",
+    "filter-type": "Typ:",
+    "filter-all": "Wszystkie",
+    "filter-manager": "Manager",
+    "filter-patches": "Łatki",
+    "show-dev": "Pokaż wersje przedpremierowe",
+    "older-releases": "Szukasz starszych wersji?",
+    "view-manager": "Zobacz wersje Managera",
+    "view-patches": "Zobacz wersje Łatek"
   }
 }

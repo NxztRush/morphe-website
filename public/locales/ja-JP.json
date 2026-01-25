@@ -4,7 +4,8 @@
     "how-it-works": "仕組み",
     "testimonials": "ユーザーレビュー",
     "faq": "よくある質問",
-    "donate": "寄付"
+    "donate": "寄付",
+    "changelogs": "新着情報"
   },
   "hero": {
     "title": "あなたの",
@@ -175,7 +176,8 @@
     "support-how": "Morpheの仕組み",
     "support-donate": "寄付",
     "copyright": "永久にオープンソースで無料。",
-    "language": "言語"
+    "language": "言語",
+    "product-changelog": "新着情報"
   },
   "analytics": {
     "title": "アナリティクス",
@@ -227,5 +229,17 @@
     "404-title": "404 - ページが見つかりません",
     "not-found": "お探しのページが見つかりません",
     "go-home": "ホームページへ"
+  },
+  "changelog": {
+    "title": "新着情報",
+    "subtitle": "アップデートと改善の完全な履歴",
+    "filter-type": "種類：",
+    "filter-all": "すべて",
+    "filter-manager": "Manager",
+    "filter-patches": "パッチ",
+    "show-dev": "プレリリースを表示",
+    "older-releases": "古いリリースをお探しですか？",
+    "view-manager": "Manager リリースを見る",
+    "view-patches": "パッチリリースを見る"
   }
 }

@@ -4,7 +4,8 @@
     "how-it-works": "工作原理",
     "testimonials": "用户评价",
     "faq": "常见问题",
-    "donate": "捐赠"
+    "donate": "捐赠",
+    "changelogs": "更新内容"
   },
   "hero": {
     "title": "改造您的",
@@ -175,7 +176,8 @@
     "support-how": "Morphe工作原理",
     "support-donate": "捐赠",
     "copyright": "永久开源和免费。",
-    "language": "语言"
+    "language": "语言",
+    "product-changelog": "更新内容"
   },
   "analytics": {
     "title": "分析",
@@ -227,5 +229,17 @@
     "404-title": "404 - 页面未找到",
     "not-found": "找不到您要查找的页面",
     "go-home": "返回首页"
+  },
+  "changelog": {
+    "title": "更新内容",
+    "subtitle": "完整的更新与改进历史",
+    "filter-type": "类型：",
+    "filter-all": "全部",
+    "filter-manager": "Manager",
+    "filter-patches": "补丁",
+    "show-dev": "显示预发布版本",
+    "older-releases": "在找更早的版本吗？",
+    "view-manager": "查看 Manager 版本",
+    "view-patches": "查看补丁版本"
   }
 }
