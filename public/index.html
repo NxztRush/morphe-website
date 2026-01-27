@@ -5,16 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Morphe App for YouTube and YouTube Music - OFFICIAL SITE">
     <title>Morphe App for YouTube and YouTube Music - OFFICIAL SITE</title>
-    <script>
-        (function () {
-          try {
-            const theme = localStorage.getItem('morphe-theme') || 'auto';
-            const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            const actual = theme === 'auto' ? (systemDark ? 'dark' : 'light') : theme;
-            document.documentElement.setAttribute('data-theme', actual);
-          } catch (e) {}
-        })();
-    </script>
+    <!-- Theme preloader -->
+    <script src="/js/theme-preload.js"></script>
+    <!-- Language preloader -->
+    <script src="/js/lang-preload.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/dark-theme.css">
     <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96"/>
@@ -24,15 +18,6 @@
     <meta name="apple-mobile-web-app-title" content="Morphe"/>
     <link rel="manifest" href="site.webmanifest"/>
     <script src="/js/analytics.js"></script>
-    <script>
-        window.addEventListener('load', () => {
-          if (window.umami) {
-            umami.track('Browser', {
-              language: navigator.language
-            });
-          }
-        });
-    </script>
 </head>
 <body>
 <!-- Navigation -->
