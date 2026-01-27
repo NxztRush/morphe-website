@@ -4,16 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="error.404-title">404 - Page Not Found</title>
-    <script>
-        (function () {
-            try {
-                const theme = localStorage.getItem('morphe-theme');
-                if (theme) {
-                    document.documentElement.setAttribute('data-theme', theme);
-                }
-            } catch (e) {}
-        })();
-    </script>
+    <!-- Theme preloader -->
+    <script src="/js/theme-preload.js"></script>
+    <!-- Language preloader -->
+    <script src="/js/lang-preload.js"></script>
     <style>
         :root {
             --primary-blue: #1E5AA8;
