@@ -4,7 +4,7 @@
     "how-it-works": "How It Works",
     "testimonials": "Testimonials",
     "faq": "FAQ",
-    "donate": "Donate",
+    "donate": "Donate us",
     "changelogs": "What's New"
   },
   "hero": {
@@ -158,11 +158,11 @@
     "q7": "Is Morphe magic?",
     "a7": "No. But also yes. It's advanced bytecode manipulation that feels like magic.",
     "q8": "Can I contribute to Morphe?",
-    "a8-part1": "Yes! See the contribution guidelines in our",
-    "a8-github": "GitHub repos",
-    "a8-part2": ". If you don't have developer skills, we always appreciate",
+    "a8-part1": "Morphe is driven by its community. You can contribute directly via our",
+    "a8-github": "GitHub repositories",
+    "a8-part2": "or support us independently. In particular,",
     "a8-donate": "donations",
-    "a8-part3": "to help pay the bills."
+    "a8-part3": "ensure the long-term operation and continued development of the platform."
   },
   "footer": {
     "description": "Next generation Android app patching",
@@ -185,16 +185,16 @@
     "part2": "and Google Analytics 4: No cookies, no advertising, no profiling, and no data is sold or shared.",
     "part3": "Morphe does not add analytics or data collection to any patched apps."
   },
-  "donate": {
-    "title": "Support",
-    "description": "Your contribution helps us continue developing and improving Morphe",
-    "why-title": "Why Donate?",
-    "why-1": "Keep Morphe free and open source",
-    "why-2": "Support ongoing development",
-    "why-3": "Help cover infrastructure costs",
-    "why-4": "Enable faster bug fixes and features",
+"donate": {
+    "title": "Support Us",
+    "description": "Your support ensures the independence and future of Morphe.",
+    "why-title": "The impact of your contribution:",
+    "why-1": "Keeping Morphe free and open source forever",
+    "why-2": "Continuous maintenance and new features",
+    "why-3": "Covering server and infrastructure costs",
+    "why-4": "Faster bug fixes and technical support",
     "crypto-click": "Click to open wallet"
-  },
+},
   "microg": {
     "title": "Download",
     "description": "MicroG is required to use YouTube Morphe and YT Music Morphe",
@@ -226,8 +226,8 @@
     "why-3": "Contribute to Open Source"
   },
   "error": {
-    "404-title": "404 - Page Not Found",
-    "not-found": "The page you're looking for can't be found",
+    "404-title": "404 - What exactly are you looking for here?",
+    "not-found": "Either you have turned wrong, otherwise you will return to the homepage below. ",
     "go-home": "Go to Homepage"
   },
   "changelog": {
