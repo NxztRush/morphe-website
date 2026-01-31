@@ -4,13 +4,13 @@
     "how-it-works": "So funktioniert es",
     "testimonials": "Erfahrungsberichte",
     "faq": "FAQ",
-    "donate": "Unterstützen",
+    "donate": "Ihr Beitrag für das Fortbestehen der App",
     "changelogs": "Neuigkeiten"
   },
   "hero": {
     "title": "Transformiere deine",
     "title-highlight": "Android-Apps",
-    "description": "Von den Entwicklern der besten modifizierten YouTube-Apps kommt Morphe – ein leistungsstarkes Tool zur App-Modifikation, das dir die volle Kontrolle gibt",
+    "description": "Von den Entwicklern, die Ihnen die besten modifizierten YouTube-Apps gebracht haben, kommt Morphe - das leistungsstarke App-Modifikationstool, mit dem Sie die Kontrolle haben ",
     "download": "Morphe herunterladen",
     "learn-more": "Mehr erfahren",
     "social-label": "Community beitreten"
@@ -24,29 +24,29 @@
     "show-dislikes-desc": "Sieh die echte Anzahl an Dislikes für bessere Entscheidungen",
     "swipe-controls": "Wischsteuerung",
     "swipe-controls-desc": "Steuere Lautstärke und Helligkeit mit intuitiven Wischgesten",
-    "custom-themes": "Eigene Designs",
+    "custom-themes": "Persöhnliche Designs",
     "custom-themes-desc": "Personalisiere deine App mit schönen Designs und Farben",
     "hide-content": "Inhalte ausblenden",
     "hide-content-desc": "Blende unerwünschte Inhalte, Shorts und Empfehlungen für einen aufgeräumten Feed aus"
   },
   "how-it-works": {
     "title": "So funktioniert Morphe",
-    "subtitle": "Einfach, leistungsstark und für alle gemacht",
+    "subtitle": "Einfach zugänglich, leistungsstark und für alle gemacht",
     "step1-title": "1. Morphe herunterladen",
     "step1-desc": "Lade die neueste Version von Morphe herunter und installiere sie auf deinem Android-Gerät.",
-    "step2-title": "2. App auswählen",
+    "step2-title": "2. Gewünschte App auswählen",
     "step2-desc": "Wähle die App aus, die du ändern möchtest.",
     "step3-title": "3. Patches anwenden",
     "step3-desc": "Morphe patcht die ausgewählte App automatisch.",
     "step4-title": "4. Installieren & genießen",
-    "step4-desc": "Installiere die gepatchte App und genieße dein personalisiertes Erlebnis.",
+    "step4-desc": "Installiere die gepatchte App und genieße dein lang erwartetes personalisiertes Erlebnis.",
     "supported-title": "Unterstützte Apps"
   },
   "testimonials": {
     "title": "Was Nutzer sagen",
     "subtitle": "Feedback von echten Nutzern und definitiv nicht erfunden",
     "quote_1": {
-      "text": "Früher habe ich Stunden damit verbracht, Patches manuell zu konfigurieren. Jetzt klicke ich einfach auf „Patch“ und gehe mir einen Kaffee machen. Wenn ich zurückkomme, ist alles fertig. Revolutionär!",
+      "text": "Früher habe ich Stunden damit verbracht, Patches manuell zu konfigurieren. Jetzt klicke ich in meiner Morphe App einfach auf „Patch“ und gehe mir einen Kaffee machen. Wenn ich zurückkomme, ist alles fertig. Revolutionär!",
       "author": "Lisa Smith",
       "role": "Kaffeeliebhaberin"
     },
@@ -145,24 +145,25 @@
     "title": "Häufig gestellte Fragen",
     "subtitle": "Alles, was du über Morphe wissen musst",
     "q1": "Welche Apps kann Morphe patchen?",
-    "a1": "Du kannst jede App patchen, die du möchtest, solange es YouTube, YouTube Music oder Reddit ist. Wir arbeiten ständig daran, die Unterstützung auf weitere Apps auszuweiten.",
+    "a1": "Passen Sie Apps wie YouTube, YouTube Music oder Reddit ganz nach Ihren Wünschen an. Unser Team arbeitet kontinuierlich daran, den Support auf weitere Anwendungen auszuweiten.",
     "q2": "Ist Morphe sicher?",
     "a2": "So sicher, wie die Modifikation von obfuskiertem Bytecode sein kann. Der gesamte Quellcode von Morphe ist Open Source und öffentlich einsehbar. Die Community prüft und erweitert ihn aktiv.",
     "q3": "Kann Morphe mein Handy beschädigen?",
     "a3": "Nur wenn dein Handy selbst beschließt, kaputtzugehen. Ansonsten bleibt dein Gerät unversehrt. Morphe verändert nur App-Pakete und greift nicht auf Systemdateien zu.",
     "q4": "Kann ich Apps nach meinen Wünschen anpassen?",
-    "a4": "Ja, aber gib Morphe nicht die Schuld, wenn deine App zu stark angepasst ist. Es wird empfohlen, maßvoll zu personalisieren.",
+    "a4": "Ja klar, aber gib Morphe nicht die Schuld, wenn deine App zu stark angepasst ist. Es wird empfohlen, in maßen zu personalisieren.",
     "q5": "Wie sieht Morphes Datenschutzrichtlinie aus?",
     "q6": "Warum der Name Morphe?",
     "a6": "Weil „Android App Modification And Transformation Tool“ nicht besonders eingängig ist. Morphe steht für das Verwandeln von Apps in etwas Besseres.",
     "q7": "Ist Morphe Magie?",
     "a7": "Nein. Aber irgendwie doch. Es ist fortgeschrittene Bytecode-Manipulation, die sich wie Magie anfühlt.",
     "q8": "Kann ich zu Morphe beitragen?",
-    "a8-part1": "Ja! Sieh dir die Beitragsrichtlinien in unseren",
+    "a8-part1": "Morphe lebt von der Community. Du kannst dich direkt in unseren",
     "a8-github": "GitHub-Repositories",
-    "a8-part2": "an. Wenn du kein Entwickler bist, freuen wir uns immer über",
+    "a8-part2": "beteiligen oder uns projektunabhängig unterstützen. Besonders",
     "a8-donate": "Spenden",
-    "a8-part3": ", um die laufenden Kosten zu decken."
+    "a8-part3": "sichern den langfristigen Betrieb und die Weiterentwicklung der Plattform."
+
   },
   "footer": {
     "description": "Android-App-Patching der nächsten Generation",
@@ -180,21 +181,21 @@
     "product-changelog": "Neuigkeiten"
   },
   "analytics": {
-    "title": "Analytics",
+    "title": "Analysen",
     "part1": "Diese Website verwendet ",
     "part2": "und Google Analytics 4: Keine Cookies, keine Werbung, kein Profiling, und keine Daten werden verkauft oder geteilt.",
     "part3": "Morphe fügt keinen Analyse- oder Datensammlungsmechanismus zu gepatchten Apps hinzu."
   },
   "donate": {
     "title": "Unterstützung",
-    "description": "Dein Beitrag hilft uns, Morphe weiterzuentwickeln und zu verbessern",
-    "why-title": "Warum spenden?",
-    "why-1": "Morphe kostenlos und Open Source halten",
-    "why-2": "Laufende Entwicklung unterstützen",
-    "why-3": "Infrastrukturkosten decken",
-    "why-4": "Schnellere Bugfixes und neue Funktionen ermöglichen",
-    "crypto-click": "Klicken, um Wallet zu öffnen"
-  },
+    "description": "Deine Unterstützung sichert die Unabhängigkeit und Zukunft von Morphe.",
+    "why-title": "Was dein Beitrag bewirkt:",
+    "why-1": "Morphe bleibt dauerhaft kostenlos und Open Source",
+    "why-2": "Kontinuierliche Pflege und neue Features",
+    "why-3": "Finanzierung der Server- und Infrastrukturkosten",
+    "why-4": "Schnellere Reaktionszeiten bei Bugs und Support",
+    "crypto-click": "Wallet-Adresse öffnen"
+},
   "microg": {
     "title": "Herunterladen",
     "description": "MicroG wird benötigt, um YouTube Morphe und YT Music Morphe zu nutzen",
@@ -204,7 +205,7 @@
     "feature1-desc": "MicroG bietet Unterstützung für Google Play Services und ermöglicht die Nutzung deines Google-Kontos mit YouTube Morphe und YT Music Morphe.",
     "feature2-title": "Datenschutzorientiert",
     "feature2-desc": "MicroG ist eine Open-Source-Neuimplementierung von Google-Diensten, die deine Privatsphäre respektiert und gleichzeitig wichtige Funktionen bereitstellt.",
-    "feature3-title": "Einmalige Installation",
+    "feature3-title": "Einmalige Installation erforderlich",
     "feature3-desc": "Installiere MicroG einmal und es funktioniert mit allen Morphe-Apps. Keine Neuinstallation bei Updates erforderlich."
   },
   "translate": {
@@ -226,13 +227,13 @@
     "why-3": "Trage zu Open Source bei"
   },
   "error": {
-    "404-title": "404 – Seite nicht gefunden",
-    "not-found": "Die gesuchte Seite konnte nicht gefunden werden",
+    "404-title": "404 – Was genau suchst du hier?",
+    "not-found": "Entweder bist du falsch abgebogen, ansonsten kehrst du unten zur Startseite zurück.",
     "go-home": "Zur Startseite"
   },
   "changelog": {
     "title": "Neuigkeiten",
-    "subtitle": "Vollständige Historie aller Updates und Verbesserungen",
+    "subtitle": "Vollständiger Verlauf aller Updates und Verbesserungen",
     "filter-type": "Typ:",
     "filter-all": "Alle",
     "filter-manager": "Manager",
